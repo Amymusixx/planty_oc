@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+/* Import de la police Syne et on l'applique sur toute la page. */
+
+body * {
+    font-family: 'Syne', sans-serif;
+}
+/* on ajoute une couleur noire au paragraphes */
+p {
+    color: black;
+}
+
+
+/* ------------- HEADER ------------ */ 
+
+
+li.menu-item a:hover {
+font-weight:700;
+}
+
+
+.header-titles {
+    margin:0px;
+    padding:0px;
+}
+
+
+.header-inner {
+    margin:0px;
+    height:10px;
+}
+
+#site-header {
+    display:flex;
+    justify-content: flex-end;
+}
+
+/* ------------- FOOTER ------------ */ 
+
+#site-footer {
+    text-align: center;
+ }
+
+#site-footer a {
+    color:black;
+}
