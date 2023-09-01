@@ -63,6 +63,116 @@ li.menu-item a:hover {
    
 }
 
+.a:hover {
+    text-decoration:none;
+}
+
+
+/* ---------- Page de précommande ------------ */ 
+
+.container {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    
+}
+
+.container-2 {
+    display:flex;
+    flex-direction:row;
+}
+
+.form {
+    padding:20px;
+}
+
+.form-title {
+    color:white;
+    font-size:30px;
+}
+
+.label-form {
+    color:white;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+  
+}
+
+.product {
+    display:flex;
+    flex-direction:column;
+    width:210px;
+    padding:10px;
+    
+}
+
+
+.product-img {
+    padding: 10px 0 10px 0;
+}
+
+.number {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.nombre {
+    border-radius:7px 0 0 7px;
+    height:56px;
+    width:51px;
+    border:none;
+    text-align:center;
+}
+
+.signe-plus {
+    height:28px;
+    width:31px;
+    color:white;
+    border-radius: 0 7px 0px 0;
+    border:none;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #DC9F97;
+    text-align:center;
+    background-color:#DC9F97;
+}
+
+.signe-moins{
+    height:28px;
+    width:31px;
+    color:white;
+    border-radius: 0 0px 7px 0;
+    border:none;
+    border-top: 1px solid white;
+    text-align:center;
+    background-color:#DC9F97;
+}
+
+
+.ok {
+    background-color:#E0B9B4;
+    height:56px;
+    width:140%;
+    color:white;
+    border-radius:5px;
+    border:none;
+    text-align:center;
+    background-color:#E0B9B4;
+    margin-left:10px;
+ 
+}
+
+.ok:hover {
+    background-color:#A80C2F;
+}
+
+
+
 /* ------------- FOOTER ------------ */ 
 
 .footer {
