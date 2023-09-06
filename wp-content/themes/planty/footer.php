@@ -14,7 +14,7 @@
 ?>
 
 <footer class="footer">
-<a href=#>Mentions légales</a>
+<a href="http://localhost:8888/planty/mentions-legales/">Mentions légales</a>
         </footer><!-- #site-footer -->
 
       <?php wp_footer(); ?>

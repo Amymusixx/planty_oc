@@ -17,13 +17,10 @@ li.menu-item a:hover {
     font-weight:600;
 }
 
-
-
 .header-titles {
     margin:0px;
     padding:0px;
 }
-
 
 .header-inner {
     margin:0px;
@@ -33,6 +30,10 @@ li.menu-item a:hover {
 #site-header {
     display:flex;
     justify-content: flex-end;
+}
+
+.header-navigation-wrapper {
+
 }
 
 /* --------------- Home page ------------- */ 
@@ -67,7 +68,6 @@ li.menu-item a:hover {
     text-decoration:none;
 }
 
-
 /* ---------- Page de précommande ------------ */ 
 
 .container {
@@ -77,22 +77,38 @@ li.menu-item a:hover {
     
 }
 
+.formulaire {
+    display:flex;
+justify-content:center;
+align-items:center;
+}
+
 .container-2 {
     display:flex;
     flex-direction:row;
 }
 
-.form {
-    padding:20px;
+
+.spacer {
+    border-left:1px solid white;
+    visibility:visible;
+}
+
+.spacer-2 {
+    padding-bottom:50px;
 }
 
 .form-title {
     color:white;
     font-size:30px;
+    margin:0px;
+    padding-bottom:20px;
 }
+
 
 .label-form {
     color:white;
+    padding-left:0px;
 }
 
 .buttons {
@@ -100,6 +116,7 @@ li.menu-item a:hover {
     flex-direction: row;
     justify-content: center;
     flex-wrap:wrap;
+
   
 }
 
@@ -184,4 +201,17 @@ li.menu-item a:hover {
 .footer a {
     color:black;
     text-decoration:none;
+}
+
+
+/* MEDIAS QUERIES */
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 700px) {
+    /* ... */
+
+    .spacer {
+        display:none;
+    }
+
 }
