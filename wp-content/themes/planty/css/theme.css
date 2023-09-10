@@ -9,12 +9,17 @@ p {
     color: black;
 }
 
-
 /* ------------- HEADER ------------ */ 
 
 
 li.menu-item a:hover {
     font-weight:600;
+    font-size:13px;
+}
+
+li.menu-item {
+    font-weight:400;
+    font-size:13px;
 }
 
 .header-titles {
@@ -30,10 +35,6 @@ li.menu-item a:hover {
 #site-header {
     display:flex;
     justify-content: flex-end;
-}
-
-.header-navigation-wrapper {
-
 }
 
 /* --------------- Home page ------------- */ 
